@@ -1,56 +1,67 @@
-#include <iostream>
+// //  scope resulation
 
-using namespace std;
+// #include <iostream>
 
-class ParentA{
+// using namespace std;
 
-    public:
+// class ParentA{
 
-    void displayA(){
-        cout << "Parent A" << endl;
-    }
+//     public:
 
-};
+//     void displayA(){
+//         cout << "Parent A" << endl;
+//     }
 
-class ChildA : public ParentA {
+// };
 
-    public:
+// class ChildA : public ParentA {
 
-    void displayB(){
-        cout << "ChildA" << endl;
-    }
+//     public:
 
-};
+//     void displayB(){
+//         cout << "ChildA" << endl;
+//     }
 
-
-class ChildB : public ParentA{
-
-    public:
-
-    void displayC(){
-        cout << "ChildB" << endl;
-    }
-
-};
-
-class childC : public ChildA , public ChildB{
-
-    public:
-
-    void displayD(){
-        cout << "ChildC" << endl;
-    }
-
-};
+// };
 
 
-int main(){
+// class ChildB : public ParentA{
 
-    childC c1;
+//     public:
 
-    c1.ChildA::displayA();
+//     void displayC(){
+//         cout << "ChildB" << endl;
+//     }
+
+// };
+
+// class childC : public ChildA , public ChildB{
+
+//     public:
+
+//     void displayD(){
+//         cout << "ChildC" << endl;
+//     }
+
+// };
+
+
+// int main(){
+
+//     childC c1;
+
+//     c1.ChildA::displayA();
 
 
 
-    return 0;
-}
+//     return 0;
+// }
+
+
+
+
+
+//                            solve this dimond problem using ->  virtual 
+
+
+//  learn it from ChatGpt

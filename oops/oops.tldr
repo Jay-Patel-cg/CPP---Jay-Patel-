@@ -864,7 +864,7 @@
 		},
 		{
 			"x": -122.95710558821611,
-			"y": -4597.832613465951,
+			"y": -4797.832613465951,
 			"z": 0.5,
 			"meta": {},
 			"id": "camera:page:page",
@@ -1511,6 +1511,48 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 386.15711779524736,
+			"y": 5448.132612703012,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:r36jUf5DSY7P7dJUxN0Qe",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "xl",
+				"w": 2359.800048828125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Virtual is used to make a single copy of a parent class -> not excate this defination somthing like that"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b0KxKP6MV",
+			"typeName": "shape"
+		},
+		{
 			"x": 1018.1341112236968,
 			"y": 3675.7964367746313,
 			"rotation": 0,
@@ -1633,12 +1675,12 @@
 			"typeName": "binding"
 		},
 		{
-			"editingShapeId": "shape:ZrPr3FqPGOpNPeu-C6v5W",
+			"editingShapeId": "shape:r36jUf5DSY7P7dJUxN0Qe",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:ZrPr3FqPGOpNPeu-C6v5W"
+				"shape:r36jUf5DSY7P7dJUxN0Qe"
 			],
-			"hoveredShapeId": "shape:ZrPr3FqPGOpNPeu-C6v5W",
+			"hoveredShapeId": "shape:r36jUf5DSY7P7dJUxN0Qe",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -4177,7 +4219,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1488,
+				"w": 1302.4000244140625,
 				"h": 568
 			},
 			"insets": [

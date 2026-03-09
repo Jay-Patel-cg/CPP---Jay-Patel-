@@ -1,0 +1,6 @@
+There are Three Type of Acceess modifire in C++ 
+in Java We have 4 but now we only havee 3
+
+1 -> Public -> You can acceess that any where
+2 -> Privet ->  You can only use it in a that Class in which you define that 
+3 -> Protected

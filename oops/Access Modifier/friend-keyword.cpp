@@ -186,5 +186,5 @@ int main(){
     
     Rectangle r1(56, 78);
     Child2 c1(r1);
-    return 0;
+    return        0;
 }
